@@ -1,0 +1,121 @@
+:root {
+    --verdeo: rgb(13, 124, 102);
+    --verdem: rgb(65, 179, 162);
+    --verdec: rgb(189, 232, 202);
+    --morado: rgb(215, 195, 241);
+    --azul:rgb(18, 48, 174);
+    --moradoo:rgb(108, 72, 197);
+    --rosao:rgb(198, 143, 230);
+    --rosa:rgb(255, 247, 247);
+}
+.container {
+    width: 1200px;
+    margin: 25px auto;
+    background-color: var(--moradoo);
+    padding: 25px 0;
+}
+h1 {
+    text-align: center;
+    color: var(--rosao);
+    background-color: var(--azul);
+    margin: 0 25px;
+}  
+
+h2 {
+    text-align: center;
+    color: var(--rosao);
+    background-color: var(--azul);
+    margin: 25px 25px 0px 25px;
+}
+
+h3 {    
+    color: var(--verdec);
+    text-transform: uppercase;
+    background-color: var(--verdeo);
+    padding: 2.5px;
+}
+form {
+    margin: 0px 25px;
+}
+
+legend {
+    padding: 25px 0px;
+    color: var(--verdem);
+    text-transform: uppercase; 
+             
+}
+
+fieldset {
+    margin-top: 0px;
+}
+
+label {
+    color: var(--rosa);    
+}
+.data-inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 3.5px;
+    margin: 0px;
+}
+
+.lug , .sujetador{
+    display: grid;
+    grid-template-columns: 0.25fr 0.75fr;
+    margin-top: 1.5rem;
+}
+
+.lug, .sujetador label {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.lug-datos {
+    color:var(--morado);;
+}
+
+.lug-datos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 1.5rem;
+    margin-left: 20rem;
+    margin-right: 5px;
+    row-gap: 0.85rem;
+    column-gap: 0.85rem;
+}
+.lug-dato input{
+    width: 100%;
+    margin-top: 0.35rem;
+}
+
+.btn-alinear{
+    text-align: right;
+    margin-top: 1.5rem;
+}
+.btn {
+    background-color: var(--verdeo);
+    color: var(--rosa);
+    text-transform: uppercase;
+    padding: .75rem 2.5rem;
+    border-color: var(--verdec);
+    border-width: 2.5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--verdem);
+    color: var(--azul);
+    border-color: var(--rosa);
+}
+
+input[disabled] {
+    color: red;
+    background-color: var(--morado);
+    border-color: var(--verdec);
+    font-weight: bold;
+    padding-left: 5.5px;
+}
+
+
